@@ -1,0 +1,14 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.portWin": "COM5",
+  "idf.adapterTargetName": "esp32c3",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-ftdi.cfg"
+  ],
+  "files.associations": {
+    "public.h": "c",
+    "esp_http_client.h": "c",
+    "cjson.h": "c",
+    "wifi.h": "c"
+  }
+}
