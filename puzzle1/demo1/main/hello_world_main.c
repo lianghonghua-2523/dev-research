@@ -35,8 +35,8 @@
 #include "esp_crt_bundle.h"
 static const char *TAG = "HTTPS_REQUEST";
 
-static const char * wifi_ssid = "LHH_cy";               //LHH_cy
-static const char * wifi_password = "lhh123456789";             //lhh123456789
+static const char * wifi_ssid = "UPGRADE_AP";               //LHH_cy
+static const char * wifi_password = "TEST1234";             //lhh123456789
 
 static void https_get_request(esp_tls_cfg_t cfg, const char *WEB_SERVER_URL, const char *REQUEST);
 static void ProcessFunc(char *buf,int len);
